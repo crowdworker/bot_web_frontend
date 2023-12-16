@@ -1,0 +1,20 @@
+// Styles for HELP TOOLTIPS
+
+.help {
+  display: inline-block;
+  float: right;
+  margin-left: 2rem;
+}
+
+.help-text {
+  position: absolute;
+  z-index: 999;
+  padding: 2px;
+  font-style: normal;
+  background-color: $dark_gray;
+  color: $off_white;
+  border-radius: 3px;
+  padding: .5rem .8rem;
+  width: 250px;
+  margin-left: -125px;
+}
